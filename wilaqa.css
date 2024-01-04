@@ -1,0 +1,274 @@
+html, body {
+    height: 100%;
+    margin-left: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: cornflowerblue;;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+  .button {
+    padding: 2px;
+    background-color: rgb(0, 81, 255);
+    color: #ffcf0d;
+    border: 1px solid transparent;
+    border-radius: 5px;
+  }
+
+  .button-big {
+    padding: .7rem 1.3rem;
+    line-height: 1.3rem;
+  }
+
+  .button-small {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    background-color: cadetblue;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+
+ 
+
+/*PAGE-CONTAINER*/
+.page-container {
+    min-height: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+}
+
+.page-container p {
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-stretch: expanded;
+}
+
+/* FOOTER*/
+
+
+p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+.Sign-in-form {
+    width: 100%;
+    border-collapse: collapse;
+    position: relative;
+    text-align: center;
+    font-size: medium;
+    max-height: 100vh;
+    padding: 0%;
+    column-span: all;
+    text-align: justify;
+    
+
+
+}
+
+.Sign-in-form, label {
+    background-color: rgb(204, 203, 203);
+    color: rgb(3, 3, 65);
+    font-size: medium;
+    font-weight: bold;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    height: 31px;
+    width: 100px;
+
+
+}
+
+.Sign-in-form, input {
+    border-color: rgb(8, 8, 175);
+    height: 30px;
+    width: 300px;
+    color:rgb(3, 3, 65);
+    background-color: lavender;
+    text-align: center;
+    border-radius: 2%;
+    
+}
+
+.News {
+  display: flex;
+  border: 2px solid yellow;
+  min-height: 75%;
+  position: inherit;
+  margin-top: 210px;
+}
+
+.News-section {
+  flex: 20% 55% 25%;
+  padding: 2px;
+  border: 2px solid yellow;
+  min-height: 75%;
+  
+}
+
+.News-section .Groups {
+  width: 20%;
+}
+
+.News-section .ChatBook {
+  width: 55%;
+}
+
+.News-section .MyPosts {
+  width: 25%;
+}
+
+.chat-room_news {
+    position: relative;
+}
+
+
+.news-updates {
+    margin-bottom: 30px;
+  }
+  
+  .news-update {
+    margin-bottom: 20px;
+  }
+  
+  .comment-button_news {
+    width: fit-content;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: rgb(231, 157, 8);
+    color: rgb(3, 3, 65);
+    font-weight: bolder;
+    font-size: large;
+    
+    
+  }
+  
+  .message-form_news, .rating-form, .comment-form_news {
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+  }
+  
+  .terms-conditions_news label, .comment-form_news label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .message-form_news label, .rating-form label {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  .message-form_news input[type="checkbox"] {
+    margin-left: 5px;
+  }
+  
+  .rating-form select {
+    width: 50px;
+  }
+  
+  .comment-form_news input[type="tel"], .comment-form input[type="email"] {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .comment-form_news textarea {
+    width: 100%;
+    margin-top: 10px;
+  }
+  
+  .comment-form_news input[type="submit"] {
+    margin-top: 10px;
+  }
+  
+  .chat-room_news {
+    display: none;
+  }
+  
+  .comment-message_news {
+    margin-top: 20px;
+    text-align: center;
+    display: none;
+  }
+  
+
+  .section1-job {
+    margin-bottom: 20px;
+}
+
+.section2-job {
+    margin-bottom: 20px;
+}
+
+.section3-job {
+    margin-bottom: 20px;
+}
+
+.section4-job {
+    margin-bottom: 20px;
+}
+
+.section5-job {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.label-section-job {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section-job[type="text"],
+.input-section-job[type="email"],
+.input-section-job[type="number"],
+.select-section-job {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.textarea-section-job {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.input-section-job[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.table-section-job {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th-section-job,
+.td-section-job {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}

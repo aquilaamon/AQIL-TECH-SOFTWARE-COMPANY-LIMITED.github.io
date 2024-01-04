@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Find Job</title>
+    <style>
+       .section1-job {
+    margin-bottom: 20px;
+}
+
+.section2-job {
+    margin-bottom: 20px;
+}
+
+.section3-job {
+    margin-bottom: 20px;
+}
+
+.section4-job {
+    margin-bottom: 20px;
+}
+
+.section5-job {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.label-section-job {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-section-job[type="text"],
+.input-section-job[type="email"],
+.input-section-job[type="number"],
+.select-section-job {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.textarea-section-job {
+    width: 100%;
+    height: 100px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.input-section-job[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.table-section-job {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.th-section-job,
+.td-section-job {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+    </style>
+</head>
+
+<body>
+    <section class="section1-job">
+        <h2>Some of the qualified programmers</h2>
+        <table class="table-section-job">
+            <tr>
+                <th class="th-section-job">Name</th>
+                <th class="th-section-job">Email</th>
+                <th class="th-section-job">Phone Number</th>
+                <th class="th-section-job">Location Address</th>
+                <th class="th-section-job">CV</th>
+                <th class="th-section-job">Experience</th>
+                <th class="th-section-job">Skills</th>
+            </tr>
+            <!-- Hired candidates details will be displayed here -->
+        </table>
+    </section>
+
+    <section class="section2-job">
+        <h2>Candidates who applied to join <h2 style="color: red;">WILAQA SOFT COMPANY LTD</h2> </h2>
+        <table class="table-section-job">
+            <tr>
+                <th class="th-section-job">Name</th>
+                <th class="th-section-job">Email</th>
+                <th class="th-section-job">Phone Number</th>
+                <th class="th-section-job">Location Address</th>
+                <th class="th-section-job">CV</th>
+                <th class="th-section-job">Experience</th>
+                <th class="th-section-job">Skills</th>
+            </tr>
+            <!-- List of applicants details will be displayed here -->
+        </table>
+    </section>
+
+    <section class="section3-job">
+        <h2>Available Vacancies.</h2>
+        <ul>
+            <li>Data Analysis</li>
+            <li>Web Design</li>
+            <li>Programme Maintenance</li>
+            <li>Marketing</li>
+        </ul>
+    </section>
+
+    <section class="section4-job">
+        <h2>Successful Programmers Who Are Soon Joining The Company After Last Interview</h2>
+        <table class="table-section-job">
+            <tr>
+                <th class="th-section-job">Name</th>
+                <th class="th-section-job">Email</th>
+                <th class="th-section-job">Phone Number</th>
+                <th class="th-section-job">Location Address</th>
+                <th class="th-section-job">CV</th>
+                <th class="th-section-job">Experience</th>
+                <th class="th-section-job">Skills</th>
+            </tr>
+            <!-- Successful programmers details will be displayed here -->
+        </table>
+    </section>
+
+    <section class="section5-job">
+        <h2>For Interested Personnel Should Fill The Application Form Below</h2>
+        <form>
+            <label class="label-section-job" for="name">Name</label>
+            <input class="input-section-job" type="text" id="name" name="name" required>
+
+            <label class="label-section-job" for="email">Email</label>
+            <input class="input-section-job" type="email" id="email" name="email" required>
+
+            <label class="label-section-job" for="phone">Phone Number</label>
+            <input class="input-section-job" type="tel" id="phone" name="phone" required>
+
+            <label class="label-section-job" for="location">Location Address</label>
+            <input class="input-section-job" type="text" id="location" name="location" required>
+
+            <label class="label-section-job" for="cv">CV</label>
+            <input class="input-section-job" type="file" id="cv" name="cv" required>
+
+            <label class="label-section-job" for="experience">Time of Experience</label>
+            <input class="input-section-job" type="text" id="experience" name="experience" required>
+
+            <label class="label-section-job" for="skills">Programming Skills</label>
+            <select id="skills" name="skills" required>
+                <option value="">Select a skill</option>
+                <option value="Data Analysis">Data Analysis</option>
+                <option value="Web Design">Web Design</option>
+                <option value="Programme Maintenance">Programme Maintenance</option>
+                <option value="Marketing">Marketing</option>
+            </select>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <special-footer>
+        <script src="Assets\AqilTechFooter.js"></script>
+    </special-footer>
+
+</body>
+
+</html>

@@ -1,0 +1,30 @@
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 10px;
+  }
+  
+  input[type="button"], button {
+    padding: 10px 20px;
+  }
+  
+  .existing-account {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .signin-options {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }

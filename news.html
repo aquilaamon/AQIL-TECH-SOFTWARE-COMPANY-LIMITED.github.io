@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <meta name="viewport" content="width=device-width, initial-scale=0.1">
+     <title>WILAQA SOFT COMPAQNY LTD</title>
+     <link class="navheader" rel="icon" type="image/x-icon" href="/home/morata/Documents/AQUILA/WEB DESIGN/WILAQA CODE/graphics/flogos/WSCLFavicon.png">
+     <link rel="stylesheet" href="wilaqa.css">
+    </head>
+    <body>
+      <special-header>
+        <script src="Assets\AqilTechHeader.js"></script>
+    </special-header>
+    <!--  <div class="page-container">-->
+      <div class="News">
+        <div class="News-section Groups"></div>
+        <div class="News-section ChatBook"></div>
+        <div class="News-section MyPosts"></div>
+      </div>
+
+
+
+      <h1>WILAQA.COM NEWS</h1>
+  
+  <div id="news-updates">
+    <!-- Display news updates posted by the company here -->
+    <div class="news-update">
+      <h2>WELCOME TO WILAQA.COM NEWS</h2>
+      <p>NEW UPDATES</p>
+      <button class="comment-button_news" value="comment">Comment</button>
+    </div>
+  </div>
+  
+  <div id="chat-room_news">
+    <h2>Chat Room</h2>
+    
+    <div id="terms-conditions_news">
+      <h3>Terms and Conditions</h3>
+      <p>Terms and conditions text...</p>
+      <p>Terms and conditions text...</p>
+      <p>Terms and conditions text...</p>
+
+      <label for="agree-terms_news">
+        <input type="radio" id="agree-terms_news" name="terms" required> ACCEPT
+      </label><br>
+
+
+      <label for="deny-terms_news">
+        <input type="radio" id="deny-terms_news" name="terms">DENY
+      </label><br>
+    </div>
+    
+    <div id="message-form_news" style="display: none;">
+      <form id="message">
+        <label for="message-textarea_news">Message (51 words max):</label><br>
+
+        <textarea id="message-textarea_news" maxlength="51" required></textarea><br>
+        
+        <label for="private_news">
+          <input type="radio" id="private_news"> Private (to a targeted person or company)
+        </label>
+        
+        <label for="public_news">
+          <input type="radio" id="public_news"> Public</label>
+          <br>
+        
+        <label for="draft_news">
+          <input type="radio" id="draft_news"> Save as Draft
+        </label><br>
+        
+        <label for="file-upload_news">Upload Document:</label>
+        <input type="file" id="file-upload_news"><br>
+        
+        <input type="submit" value="Send Message">
+      </form>
+    </div>
+    
+    <div id="rating-form" style="display: none;">
+      <h3>Rate the Program:</h3>
+      <label for="rating-select">
+        <select id="rating-select">
+          <option value="">Select</option>
+          <option value="1">1 - Poor</option>
+          <option value="2">2 - Fair</option>
+          <option value="3">3 - Good</option>
+          <option value="4">4 - Very Good</option>
+          <option value="5">5 - Excellent</option>
+        </select>
+      </label><br>
+      
+      <button id="rate-button">Submit</button>
+    </div>
+    
+    <div id="comment-form" style="display: none;">
+      <h3>Leave a Comment:</h3>
+      <label for="phone-input">Phone Number:</label>
+      <input type="tel" id="phone-input" required><br>
+      
+      <label for="email-input">Email:</label>
+      <input type="email" id="email-input" required><br>
+      
+      <textarea id="comment-textarea"></textarea><br>
+      
+      <input type="submit" value="Submit">
+    </div>
+  </div>
+
+  <script src="news.js"></script>
+  
+          
+        <!--THIS IS THE WILAQA FOOTER-->
+        
+        <special-footer>
+          <script src="Assets\AqilTechFooter.js"></script>
+      </special-footer>
+
+    </body>
+</html>
